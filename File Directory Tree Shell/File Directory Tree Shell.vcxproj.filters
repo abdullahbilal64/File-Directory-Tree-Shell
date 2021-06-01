@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="testCase1">
+      <UniqueIdentifier>{5d28392a-adcc-4e0d-afc5-e173d33dc151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase2">
+      <UniqueIdentifier>{79f20a8a-b844-45b5-9a2a-20ff815a22ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase3">
+      <UniqueIdentifier>{2d62ecef-d5fb-41b2-a981-f6eba1291d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase5">
+      <UniqueIdentifier>{f76f5348-b025-4644-9691-bb6382ca9c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase6">
+      <UniqueIdentifier>{45e82428-81ed-404e-a532-0b382e86ed9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase7">
+      <UniqueIdentifier>{51d5033e-4a1d-4a77-aa3e-86c3059d19c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase8">
+      <UniqueIdentifier>{5ddc9d6e-0c38-4e9d-b2ca-b7513f20e909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="testCase9">
+      <UniqueIdentifier>{86d838da-ee31-4791-ac22-789a761e9a62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LevelOrderOutput.txt">
+      <Filter>testCase1</Filter>
+    </Text>
+    <Text Include="output1.txt">
+      <Filter>testCase1</Filter>
+    </Text>
+    <Text Include="input.txt" />
+    <Text Include="InsertFileOutput.txt">
+      <Filter>testCase2</Filter>
+    </Text>
+    <Text Include="myInsertFileOutput.txt">
+      <Filter>testCase2</Filter>
+    </Text>
+    <Text Include="InsertFolderOutput.txt">
+      <Filter>testCase3</Filter>
+    </Text>
+    <Text Include="myInsertFolderOutput.txt">
+      <Filter>testCase3</Filter>
+    </Text>
+    <Text Include="DeleteFileOutput.txt">
+      <Filter>testCase5</Filter>
+    </Text>
+    <Text Include="myDeleteFileOutput.txt">
+      <Filter>testCase5</Filter>
+    </Text>
+    <Text Include="DeleteFolderOutput.txt">
+      <Filter>testCase6</Filter>
+    </Text>
+    <Text Include="myDeleteFolderOutput.txt">
+      <Filter>testCase6</Filter>
+    </Text>
+    <Text Include="MergeFolderOutput.txt">
+      <Filter>testCase7</Filter>
+    </Text>
+    <Text Include="myMergeFolderOutput.txt">
+      <Filter>testCase7</Filter>
+    </Text>
+    <Text Include="SearchFileOutput.txt">
+      <Filter>testCase8</Filter>
+    </Text>
+    <Text Include="mySearchFileOutput.txt">
+      <Filter>testCase8</Filter>
+    </Text>
+    <Text Include="SearchFolderOutput.txt">
+      <Filter>testCase9</Filter>
+    </Text>
+    <Text Include="mySearchFolderOutput.txt">
+      <Filter>testCase9</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
